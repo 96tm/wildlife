@@ -227,6 +227,38 @@ html {
   font-size: 17px;
   color: #f7f7f7;
 }
+.get-notified {
+  text-align: center;
+}
+/* get-notified block */
+.get-notified__header {
+  font-family: "Open Sans";
+  font-size: 27px;
+  color: #333333;
+  margin-bottom: 69px;
+}
+.notification-form__input {
+  width: 540px;
+  height: 60px;
+  padding-left: 14px;
+  background-color: transparent;
+  font-family: "Roboto";
+  font-size: 23px;
+  border-color: #666666;
+  border-radius: 5px;
+}
+.notification-form__submit {
+  height: 60px;
+  width: 120px;
+  font-family: "Roboto";
+  background-color: #cd6326;
+  padding: 5px 20px;
+  font-size: 23px;
+  border: none;
+  border-radius: 0 5px 5px 0;
+  color: #f7f7f7;
+}
+
 /* fonts */
 /* roboto-regular - latin */
 @font-face {
