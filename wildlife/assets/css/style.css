@@ -75,6 +75,7 @@ html {
   width: 32px;
   height: 32px;
   border: none;
+  cursor: pointer;
 }
 .navigation-register__button {
   padding: 11.5px 23px;
@@ -86,6 +87,14 @@ html {
   font-family: "Roboto";
   font-size: 23px;
   color: inherit;
+  cursor: pointer;
+}
+
+.navigation__link:hover,
+.navigation-search__button:hover,
+.navigation-register__button:hover {
+  background-color: #cd6326;
+  border-radius: 5px;
 }
 
 /* fonts */
