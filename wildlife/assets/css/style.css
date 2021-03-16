@@ -1,0 +1,111 @@
+html {
+  box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+.top-wrapper {
+  min-height: 759px;
+  width: 1440px;
+  background-image: url("../img/header.png");
+  background-repeat: no-repeat;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  width: 1200px;
+  margin: 0 auto;
+  padding-top: 19px;
+  color: #f7f7f7;
+}
+
+/* logo */
+
+.logo {
+  display: flex;
+  align-items: center;
+}
+.logo::before {
+  content: url("../img/logo.svg");
+}
+.logo__link,
+.navigation__link {
+  text-decoration: unset;
+  color: inherit;
+}
+.logo__header {
+  margin-left: 15px;
+  font-family: "Roboto";
+  font-size: 32px;
+  text-transform: uppercase;
+}
+
+/* header nav */
+.navigation {
+  display: flex;
+  align-items: center;
+}
+.navigation__list {
+  display: flex;
+  align-items: center;
+}
+.navigation__link {
+  font-size: 23px;
+  font-family: "Open Sans";
+}
+.navigation__item.navigation-contacts {
+  margin-left: 64px;
+}
+.navigation-search {
+  margin-left: 63px;
+}
+.navigation-register {
+  margin-left: 61px;
+}
+.navigation-search__button {
+  background-color: transparent;
+  background-image: url("../img/search.svg");
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 32px;
+  height: 32px;
+  border: none;
+}
+.navigation-register__button {
+  padding: 11.5px 23px;
+  min-height: 50px;
+  width: 120px;
+  background-color: transparent;
+  border: 2px solid #cd6326;
+  border-radius: 5px;
+  font-family: "Roboto";
+  font-size: 23px;
+  color: inherit;
+}
+
+/* fonts */
+/* roboto-regular - latin */
+@font-face {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  src: local(""), url("../fonts/roboto-v20-latin-regular.woff") format("woff"),
+    /* Modern Browsers */ url("../fonts/roboto-v20-latin-regular.woff")
+      format("truetype"); /* Modern Browsers */
+}
+
+/* open-sans-regular - latin */
+@font-face {
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 400;
+  src: local(""),
+    url("../fonts/open-sans-v18-latin-regular.woff") format("woff"),
+    /* Modern Browsers */ url("../fonts/open-sans-v18-latin-regular.ttf")
+      format("truetype"); /* Safari, Android, iOS */
+}
