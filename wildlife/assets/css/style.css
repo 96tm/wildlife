@@ -11,6 +11,7 @@ html {
 .top-wrapper {
   min-height: 759px;
   width: 1440px;
+  margin: 0 auto;
   background-image: url("../img/header.png");
   background-repeat: no-repeat;
 }
@@ -22,6 +23,7 @@ html {
   margin: 0 auto;
   padding-top: 19px;
   color: #f7f7f7;
+  margin-bottom: 132px;
 }
 
 /* logo */
@@ -95,6 +97,42 @@ html {
 .navigation-register__button:hover {
   background-color: #cd6326;
   border-radius: 5px;
+}
+
+/* survival block */
+.survival__content {
+  width: 1200px;
+  margin: 0 auto;
+}
+.survival__header {
+  font-family: "Open Sans";
+  font-size: 48px;
+  letter-spacing: 2px;
+  color: #cd6326;
+  margin-bottom: 62px;
+}
+.survival__text {
+  max-width: 274px;
+  font-family: "Open Sans";
+  font-size: 18px;
+  line-height: 27px;
+  margin-bottom: 49px;
+  color: #f7f7f7;
+}
+.survival__button {
+  width: 160px;
+  height: 60px;
+  background-color: #cd6326;
+  font-family: "Roboto";
+  font-size: 23px;
+  border: none;
+  border-radius: 5px;
+  color: #f7f7f7;
+  padding: 16px 42px 17px 42px;
+  cursor: pointer;
+}
+.survival__button:hover {
+  background-color: #e39128;
 }
 
 /* fonts */
